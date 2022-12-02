@@ -9,7 +9,7 @@ import (
 // Value: set of lowercase words matching the key as anagram
 type Anagrams map[string]map[string]struct{}
 
-func SingleWordAnagrams(w string) Anagrams {
+func SingleWordToMap(w string) Anagrams {
 	a := Anagrams{}
 	a.AddWord(w)
 	return a

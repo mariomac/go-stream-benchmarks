@@ -12,7 +12,7 @@ func Goio(words []string) map[string]map[string]struct{} {
 	wordStr := stream.FromSlice(words)
 	fWords := stream.Filter(wordStr, MoreThanOneChar)
 	lfWords := stream.Map(fWords, strings.ToLower)
-	swAgrs := stream.Map(lfWords, SingleWordAnagrams)
+	swAgrs := stream.Map(lfWords, SingleWordToMap)
 	swAgrsSl := stream.ToSlice(swAgrs)
 	swArgsRs, err := io.ObtainResult(io.Continuation[[]Anagrams](swAgrsSl))
 	if err != nil {

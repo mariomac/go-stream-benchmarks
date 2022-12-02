@@ -12,7 +12,7 @@ func Automi(words []string) map[string]map[string]struct{} {
 	str := stream.New(words).
 		Filter(MoreThanOneChar).
 		Map(strings.ToLower).
-		Map(SingleWordAnagrams).
+		Map(SingleWordToMap).
 		Reduce(Anagrams{}, Accumulate).
 		Into(collectors.Func(func(i interface{}) error {
 			res = i.(Anagrams)
