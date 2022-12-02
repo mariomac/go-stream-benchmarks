@@ -6,15 +6,31 @@ github.com/davecgh/go-spew/spew
 github.com/mariomac/gostream/item
 github.com/mariomac/gostream/order
 github.com/mariomac/gostream/stream
+# github.com/pkg/errors v0.9.1
+## explicit
+github.com/pkg/errors
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
+# github.com/primetalk/goio v0.3.6
+## explicit; go 1.18
+github.com/primetalk/goio/either
+github.com/primetalk/goio/fun
+github.com/primetalk/goio/io
+github.com/primetalk/goio/maps
+github.com/primetalk/goio/option
+github.com/primetalk/goio/set
+github.com/primetalk/goio/slice
+github.com/primetalk/goio/stream
 # github.com/stretchr/testify v1.8.1
 ## explicit; go 1.13
 github.com/stretchr/testify/assert
-# golang.org/x/exp v0.0.0-20220328175248-053ad81199eb
+# golang.org/x/exp v0.0.0-20221012211006-4de253d81b95
 ## explicit; go 1.18
 golang.org/x/exp/constraints
+# golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+## explicit
+golang.org/x/sync/semaphore
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3

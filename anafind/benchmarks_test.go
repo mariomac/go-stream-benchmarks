@@ -19,13 +19,23 @@ func BenchmarkMariomac(b *testing.B) {
 	checkCorrectness(b, out)
 }
 
-func checkCorrectness(b *testing.B, in map[string]map[string]struct{}) {
-	assert.Equal(b, map[string]map[string]struct{}{
-		"eehinrt": {"neither": {}, "therein": {}},
-		"eehrt":   {"there": {}, "three": {}},
-		"no":      {"no": {}, "on": {}},
-	}, in)
+func BenchmarkGoio(b *testing.B) {
+	input := TextAsSlice()
+	var out map[string]map[string]struct{}
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		out = Goio(input)
+	}
+	b.StopTimer()
+	checkCorrectness(b, out)
 }
+
+func checkCorrectness(b *testing.B, in map[string]map[string]struct{}) {
+	assert.Equal(b, map[string]struct{}{"neither": {}, "therein": {}}, in["eehinrt"])
+	assert.Equal(b, map[string]struct{}{"there": {}, "three": {}}, in["eehrt"])
+	assert.Equal(b, map[string]struct{}{"no": {}, "on": {}}, in["no"])
+}
+
 func debugPrint(in interface{}) {
 	txt, _ := json.MarshalIndent(in, "", "    ")
 	fmt.Println(string(txt))

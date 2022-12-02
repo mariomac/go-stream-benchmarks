@@ -9,6 +9,12 @@ import (
 // Value: set of lowercase words matching the key as anagram
 type Anagrams map[string]map[string]struct{}
 
+func SingleWordAnagrams(w string) Anagrams {
+	a := Anagrams{}
+	a.AddWord(w)
+	return a
+}
+
 // AddWord does not differentiate between upper and lowercase letters
 func (a *Anagrams) AddWord(word string) {
 	wb := []byte(word)
@@ -73,4 +79,8 @@ func TextAsChannel() <-chan string {
 		ret <- v
 	}
 	return ret
+}
+
+func MoreThanOneChar(w string) bool {
+	return len(w) > 1
 }
