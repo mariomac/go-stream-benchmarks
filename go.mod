@@ -1,6 +1,6 @@
 module streams-bench
 
-go 1.19
+go 1.18
 
 require (
 	github.com/koss-null/lambda v0.0.0-20221113232028-328f3e65b736
