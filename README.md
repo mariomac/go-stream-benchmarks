@@ -1,10 +1,9 @@
-|                     | Mariomac | Youthlin | Automi |   |
-|---------------------|---------|----------|--------|---|
-| Stars               |         | 70       | 774    |   |
-| Forks               |         | 9        |        |   |
-| Contributors        | 1       | 1        | 3      |   |
-| Generics            | ✅        | ✅        | ✅      | |
-| Parallel            | ❌       | ✅        |        | |
+|                     | Mariomac | Youthlin | Automi | Lambda |
+|---------------------|---------|----------|-------|--------|
+| Stars               |         | 70       | 774   | 114    |
+| Contributors        | 1       | 1        | 3     | 1      |
+| Generics            | ✅        | ✅        |  ❌      | ✅      |
+| Parallel            | ❌       | ✅        |    ❌   | ✅      |
 
 
 Discarded entries:

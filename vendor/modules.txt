@@ -1,6 +1,11 @@
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
+# github.com/koss-null/lambda v0.0.0-20221113232028-328f3e65b736
+## explicit; go 1.18
+github.com/koss-null/lambda/internal/algo/parallel/mergesort
+github.com/koss-null/lambda/internal/primitive/pointer
+github.com/koss-null/lambda/pkg/pipe
 # github.com/mariomac/gostream v0.8.1
 ## explicit; go 1.18
 github.com/mariomac/gostream/item
@@ -38,6 +43,9 @@ github.com/vladimirvivien/automi/operators/stream
 github.com/vladimirvivien/automi/operators/unary
 github.com/vladimirvivien/automi/stream
 github.com/vladimirvivien/automi/util
+# go.uber.org/atomic v1.10.0
+## explicit; go 1.18
+go.uber.org/atomic
 # golang.org/x/exp v0.0.0-20221012211006-4de253d81b95
 ## explicit; go 1.18
 golang.org/x/exp/constraints

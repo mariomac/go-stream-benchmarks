@@ -1,6 +1,8 @@
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/koss-null/lambda v0.0.0-20221113232028-328f3e65b736 h1:DdzcFB0tQOOS6n0Mz4Q/hGTOCIh/2vbPCs6aWed5aUU=
+github.com/koss-null/lambda v0.0.0-20221113232028-328f3e65b736/go.mod h1:nTz6nv3eLfDU/TC7sQ3yNDto22rR2sRzShpP2KrfYSQ=
 github.com/mariomac/gostream v0.8.1 h1:umH0vv4LFXqMDnEhjEKr84VfIFGMhM49Oi9NOEhLZBw=
 github.com/mariomac/gostream v0.8.1/go.mod h1:aU11yntiBpx27cGc3nf4Mpn+W8pPQojszRBIdysCPyQ=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
@@ -18,6 +20,8 @@ github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKs
 github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/vladimirvivien/automi v0.1.0-alpha.0 h1:Il/y/e7or5tJoFlexCgZ02eCqbCwP7ZdkrzWBvZIozo=
 github.com/vladimirvivien/automi v0.1.0-alpha.0/go.mod h1:pv+B/2eOabMqk3KW5v31pWaWCpDYj7sZRgdgX0a5lpE=
+go.uber.org/atomic v1.10.0 h1:9qC72Qh0+3MqyJbAn8YU5xVq1frD8bn3JtD2oXtafVQ=
+go.uber.org/atomic v1.10.0/go.mod h1:LUxbIzbOniOlMKjJjyPfpl4v+PKK2cNJn91OQbhoJI0=
 golang.org/x/exp v0.0.0-20221012211006-4de253d81b95 h1:sBdrWpxhGDdTAYNqbgBLAR+ULAPPhfgncLr1X0lyWtg=
 golang.org/x/exp v0.0.0-20221012211006-4de253d81b95/go.mod h1:cyybsKvd6eL0RnXn6p/Grxp8F5bW7iYuBgsNCOHpMYE=
 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 h1:uVc8UZUe6tr40fFVnUP5Oj+veunVezqYl9z7DYw9xzw=

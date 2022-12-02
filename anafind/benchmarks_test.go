@@ -8,12 +8,34 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+func BenchmarkBaseline(b *testing.B) {
+	input := TextAsSlice()
+	var out map[string]map[string]struct{}
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		out = Baseline(input)
+	}
+	b.StopTimer()
+	checkCorrectness(b, out)
+}
+
 func BenchmarkMariomac(b *testing.B) {
 	input := TextAsSlice()
 	var out map[string]map[string]struct{}
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
 		out = Mariomac(input)
+	}
+	b.StopTimer()
+	checkCorrectness(b, out)
+}
+
+func BenchmarkLambda(b *testing.B) {
+	input := TextAsSlice()
+	var out map[string]map[string]struct{}
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		out = Lambda(input)
 	}
 	b.StopTimer()
 	checkCorrectness(b, out)
