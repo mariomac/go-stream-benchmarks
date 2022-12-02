@@ -1,9 +1,12 @@
+# Performance comparison of Go mapreduce-like stream processing libraries
+
+
 |                     | Mariomac | Youthlin | Automi | Lambda |
-|---------------------|---------|----------|-------|--------|
-| Stars               |         | 70       | 774   | 114    |
-| Contributors        | 1       | 1        | 3     | 1      |
+|---------------------|----------|----------|-------|--------|
+| Stars               | 58       | 70       | 774   | 114    |
+| Contributors        | 1        | 1        | 3     | 1      |
 | Generics            | ✅        | ✅        |  ❌      | ✅      |
-| Parallel            | ❌       | ✅        |    ❌   | ✅      |
+| Parallel            | ❌        | ✅        |    ❌   | ✅      |
 
 
 Discarded entries:

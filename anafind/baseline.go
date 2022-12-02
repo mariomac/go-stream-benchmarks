@@ -3,7 +3,7 @@ package anafind
 import "strings"
 
 func Baseline(words []string) map[string]map[string]struct{} {
-	swa := make([]Anagrams, 0, len(words))
+	var swa []Anagrams
 	for _, w := range words {
 		if !MoreThanOneChar(w) {
 			continue
