@@ -25,6 +25,19 @@ github.com/primetalk/goio/stream
 # github.com/stretchr/testify v1.8.1
 ## explicit; go 1.13
 github.com/stretchr/testify/assert
+# github.com/vladimirvivien/automi v0.1.0-alpha.0
+## explicit
+github.com/vladimirvivien/automi/api
+github.com/vladimirvivien/automi/api/context
+github.com/vladimirvivien/automi/api/tuple
+github.com/vladimirvivien/automi/collectors
+github.com/vladimirvivien/automi/emitters
+github.com/vladimirvivien/automi/operators/batch
+github.com/vladimirvivien/automi/operators/binary
+github.com/vladimirvivien/automi/operators/stream
+github.com/vladimirvivien/automi/operators/unary
+github.com/vladimirvivien/automi/stream
+github.com/vladimirvivien/automi/util
 # golang.org/x/exp v0.0.0-20221012211006-4de253d81b95
 ## explicit; go 1.18
 golang.org/x/exp/constraints

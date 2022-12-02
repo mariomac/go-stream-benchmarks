@@ -30,6 +30,17 @@ func BenchmarkGoio(b *testing.B) {
 	checkCorrectness(b, out)
 }
 
+func BenchmarkAutomi(b *testing.B) {
+	input := TextAsSlice()
+	var out map[string]map[string]struct{}
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		out = Automi(input)
+	}
+	b.StopTimer()
+	checkCorrectness(b, out)
+}
+
 func checkCorrectness(b *testing.B, in map[string]map[string]struct{}) {
 	assert.Equal(b, map[string]struct{}{"neither": {}, "therein": {}}, in["eehinrt"])
 	assert.Equal(b, map[string]struct{}{"there": {}, "three": {}}, in["eehrt"])

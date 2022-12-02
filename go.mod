@@ -6,6 +6,7 @@ require (
 	github.com/mariomac/gostream v0.8.1
 	github.com/primetalk/goio v0.3.6
 	github.com/stretchr/testify v1.8.1
+	github.com/vladimirvivien/automi v0.1.0-alpha.0
 )
 
 require (

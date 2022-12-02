@@ -1,10 +1,10 @@
-|                     | Mariomac | Youthlin |   |   |
-|---------------------|----------|----------|---|---|
-| Stars               |          | 70       |   |   |
-| Forks               |          | 9        |   |   |
-| Contributors        | 1        | 1        |   |   |
-| Parallel            | ❌        | ✅        | | |
-| Noticeable Missings | GroupBy  | Reduce   | | |
+|                     | Mariomac | Youthlin | Automi |   |
+|---------------------|---------|----------|--------|---|
+| Stars               |         | 70       | 774    |   |
+| Forks               |         | 9        |        |   |
+| Contributors        | 1       | 1        | 3      |   |
+| Generics            | ✅        | ✅        | ✅      | |
+| Parallel            | ❌       | ✅        |        | |
 
 
 Discarded entries:
