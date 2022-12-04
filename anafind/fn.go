@@ -7,8 +7,9 @@ import (
 )
 
 func Fn(words []string) map[string]map[string]struct{} {
-	nzWords := fn.ArrayOf(words).Where(MoreThanOneChar)
-	lower := fn.MapOf(nzWords, strings.ToLower)
-	singleWords := fn.MapOf(lower, SingleWordToMap)
+	wordsLower := fn.ArrayOf(words).
+		Where(MoreThanOneChar).
+		Shape(strings.ToLower)
+	singleWords := fn.MapOf(wordsLower, SingleWordToMap)
 	return fn.Into(Anagrams{}, Accumulate, singleWords)
 }

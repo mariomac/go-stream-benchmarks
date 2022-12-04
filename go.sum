@@ -1,8 +1,8 @@
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/kamstrup/fn v0.0.0-20221204115945-0e1323489c95 h1:8Y32UnzYOgqmThhQ9E5kp0fzo03sqiVuNuYqak8MWts=
-github.com/kamstrup/fn v0.0.0-20221204115945-0e1323489c95/go.mod h1:vqT1ah2jRXZZxyRN6xMSp3QBOw4iRxSm6pGv+Jud/y8=
+github.com/kamstrup/fn v0.0.0-20221204130846-c0e4aabf3128 h1:aGX29l4+UYBc332Ovo/U8C7VpiNCWBzOToiK2825Fxg=
+github.com/kamstrup/fn v0.0.0-20221204130846-c0e4aabf3128/go.mod h1:vqT1ah2jRXZZxyRN6xMSp3QBOw4iRxSm6pGv+Jud/y8=
 github.com/koss-null/lambda v0.0.0-20221113232028-328f3e65b736 h1:DdzcFB0tQOOS6n0Mz4Q/hGTOCIh/2vbPCs6aWed5aUU=
 github.com/koss-null/lambda v0.0.0-20221113232028-328f3e65b736/go.mod h1:nTz6nv3eLfDU/TC7sQ3yNDto22rR2sRzShpP2KrfYSQ=
 github.com/mariomac/gostream v0.8.1 h1:umH0vv4LFXqMDnEhjEKr84VfIFGMhM49Oi9NOEhLZBw=
