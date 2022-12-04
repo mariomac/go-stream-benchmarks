@@ -3,6 +3,7 @@ module streams-bench
 go 1.18
 
 require (
+	github.com/kamstrup/fn v0.0.0-20221204115945-0e1323489c95
 	github.com/koss-null/lambda v0.0.0-20221113232028-328f3e65b736
 	github.com/mariomac/gostream v0.8.1
 	github.com/primetalk/goio v0.3.6
