@@ -1,6 +1,9 @@
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
+# github.com/kamstrup/fn v0.0.0-20221204130846-c0e4aabf3128
+## explicit; go 1.18
+github.com/kamstrup/fn
 # github.com/koss-null/lambda v0.0.0-20221113232028-328f3e65b736
 ## explicit; go 1.18
 github.com/koss-null/lambda/internal/algo/parallel/mergesort
